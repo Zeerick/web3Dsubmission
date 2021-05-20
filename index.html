@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+    <!-- Header -->
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/noelboss/featherlight@1.7.8/release/featherlight.min.css"/>
+        <link rel='stylesheet' type='text/css' href='css/x3dom.css'>
+        <link rel="stylesheet" type="text/css" href="https://create3000.github.io/code/x_ite/latest/dist/x_ite.css"/>
+        <!--<link rel="stylesheet" type="text/css" href="js/x_ite-4.6.11/x_ite.css"/>-->
+        <link rel="stylesheet" href="css/custom.css">
+
+        <title style="font-family:cocaColaFont;">Hello, world!</title>
+    </head>
+
+    <!-- Body -->
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola" id="header">
+            <div class="container">
+                <!-- Brand -->
+                <div class="logo">
+                    <a class="navbar-brand" href="javascript:swap('home')">
+                        <h1>1</h1>
+                        <h1>oca</h1>
+                        <h2>Cola</h2>
+                        <h3>Journey</h3>
+                        <p>Refreshing the world, one story at a time</p>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="javascript:swap('home')">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="popover" data-trigger="hover" title="About Web 3D Applications" data-placement="bottom" data-content="3D Apps is a final year and postgraduate module ...">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:swap('submission')">Submission</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:swap('coke')">Coca Cola</a>
+                                <a class="dropdown-item" href="javascript:swap('roses')">Roses</a>
+                                <a class="dropdown-item" href="javascript:swap('appletiser')">Appletiser</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Contents -->
+        <!-- Home -->
+        <div class="container-fluid main_contents" id="home">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="main_image">
+                        <div id="main_text" class="col-xs-12 col-sm-4">
+                            <div id="titleHome"></div>
+                            <div id="subTitleHome"></div>
+                            <div id="descriptionHome"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Column 1 -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <a href="javascript:swap('coke')">
+                            <div id="imageCoke"></div>
+                        </a>
+                        <div class="card-body">
+                            <div id="titleCoke"></div>
+                            <div id="subTitleCoke"></div>
+                            <div id="descriptionCoke"></div>
+                            <div id="linkCoke"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <a href="javascript:swap('roses')">
+                            <div id="imageRoses"></div>
+                        </a>
+                        <div class="card-body">
+                            <div id="titleRoses"></div>
+                            <div id="subTitleRoses"></div>
+                            <div id="descriptionRoses"></div>
+                            <div id="linkRoses"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <a href="javascript:swap('appletiser')">
+                            <div id="imageAppletiser"></div>
+                        </a>
+                        <div class="card-body">
+                            <div id="titleAppletiser"></div>
+                            <div id="subTitleAppletiser"></div>
+                            <div id="descriptionAppletiser"></div>
+                            <div id="linkAppletiser"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submission -->
+        <div class="container-fluid main_contents" id="submission">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Submission</h2>
+                    <h3>Requirements</h3>
+                    <p>1. Redesign done</p>
+                    <p>2. 3 3D models made. Only one works in x3d. The rest can be downloaded here:</p>
+                    <a href="assets/x3d/coke.x3d">coke.x3d</a>
+                    <a href="assets/x3d/coke.blend">coke.blend</a>
+                    <a href="assets/x3d/roses.x3d">roses.x3d</a>
+                    <a href="assets/x3d/roses.blend">roses.blend</a>
+                    <a href="assets/x3d/appletiser.blend">appletiser.blend</a>
+                    <p>3. It is possible to switch between cameras in Roses</p>
+                    <p>4. Done</p>
+                    <p>5. Not done (ran out of time)</p>
+                    <a href="https://github.com/Zeerick/web3Dsubmission">6. Github link</a>
+                    <p>7. See above</p>
+                    <p>8. This page</p>
+                    <p>9. X_ITE javascript was used for the 3D viewers.</p>
+                    <p>10. Done (hopefully by the time you see this).</p>
+                    <h3>Extensions</h3>
+                    <p>1. More complicated models</p>
+                    <p>2. Advanced render techniques</p>
+                    <p>3. Used Blender on Linux</p>
+                    <p>4. Used a different workflow to make the 3D elements</p>
+                    <p>5. Used X_ITE 3D viewer (an extension  of X3D, no plugins needed).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coke -->
+        <div class="container-fluid main_contents" id="coke" style="display: none;">
+            <!-- Content -->
+            <div class="row">
+                <!-- 3D Model -->
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item"><a href="javascript:swap('coke')" class="nav-link active" aria-current="page">Coca Cola</a></li>
+                                    <li class="nav-item"><a href="javascript:swap('roses')" class="nav-link">Roses</a></li>
+                                    <li class="nav-item"><a href="javascript:swap('appletiser')" class="nav-link">Appletiser</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="card-body">
+                                <div id="3DmodelTitleCoke"></div>
+
+                                <div class="model3D">
+                                    <X3DCanvas id="browser" class="browser" src="assets/x3d/roses.x3d" id="canvas" style="width: 100%; height: 100%;">
+                                        <p>Your browser may not support all features required by X_ITE.</p>
+                                    </X3DCanvas>
+                                </div>
+
+                                <div id="3DmodelMethodCoke"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery -->
+                <div class="col-sm-3">
+                    <div class="row">
+                        <div class="card-header gallery-header">
+                          Gallery
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">3D Image Gallery</h4>
+                            <div id="gallery" class="carousel slide" data-ride="carousel"></div>
+                            <p class="card-text">These images were rendered in Blender using Cycles</p>
+                        </div>
+                    </div>
+                    <!-- Blurb -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div id="3DtitleCoke"></div>
+                                    <div id="3DsubTitleCoke"></div>
+                                    <div id="3DdescriptionCoke"></div>
+                                    <div id="3DlinkCoke"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roses -->
+        <div class="container-fluid main_contents" id="roses" style="display: none;">
+            <!-- Content -->
+            <div class="row">
+                <!-- 3D Model -->
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item"><a href="javascript:swap('coke')" class="nav-link">Coca Cola</a></li>
+                                    <li class="nav-item"><a href="javascript:swap('roses')" class="nav-link active" aria-current="page">Roses</a></li>
+                                    <li class="nav-item"><a href="javascript:swap('appletiser')" class="nav-link">Appletiser</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="card-body">
+                                <div id="3DmodelTitleRoses"></div>
+
+                                <div class="model3D">
+                                    <X3DCanvas id="browser" class="browser" src="assets/x3d/roses.x3d" id="canvas" style="width: 100%; height: 100%;">
+                                        <p>Your browser may not support all features required by X_ITE.</p>
+                                    </X3DCanvas>
+                                </div>
+
+                                <div id="3DmodelMethodRoses"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery -->
+                <div class="col-sm-3">
+                    <div class="row">
+                        <div class="card-header gallery-header">
+                          Gallery
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">3D Image Gallery</h4>
+                            <div id="gallery" class="carousel slide" data-ride="carousel"></div>
+                            <p class="card-text">These images were rendered in Blender using Cycles</p>
+                        </div>
+                    </div>
+                    <!-- Blurb -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div id="3DtitleRoses"></div>
+                                    <div id="3DsubTitleRoses"></div>
+                                    <div id="3DdescriptionRoses"></div>
+                                    <div id="3DlinkRoses"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Appletiser -->
+        <div class="container-fluid main_contents" id="appletiser" style="display: none;">
+            <!-- Content -->
+            <div class="row">
+                <!-- 3D Model -->
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item"><a href="javascript:swap('coke')" class="nav-link">Coca Cola</a></li>
+                                    <li class="nav-item"><a href="javascript:swap('roses')" class="nav-link">Roses</a></li>
+                                    <li class="nav-item"><a href="javascript:swap('appletiser')" class="nav-link active" aria-current="page">Appletiser</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="card-body">
+                                <div id="3DmodelTitleAppletiser"></div>
+
+                                <div class="model3D">
+                                    <X3DCanvas id="browser" class="browser" src="assets/x3d/roses.x3d" id="canvas" style="width: 100%; height: 100%;">
+                                        <p>Your browser may not support all features required by X_ITE.</p>
+                                    </X3DCanvas>
+                                </div>
+
+                                <div id="3DmodelMethodAppletiser"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery -->
+                <div class="col-sm-3">
+                    <div class="row">
+                        <div class="card-header gallery-header">
+                          Gallery
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">3D Image Gallery</h4>
+                            <div id="gallery" class="carousel slide" data-ride="carousel"></div>
+                            <p class="card-text">These images were rendered in Blender using Cycles</p>
+                        </div>
+                    </div>
+                    <!-- Blurb -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div id="3DtitleAppletiser"></div>
+                                    <div id="3DsubTitleAppletiser"></div>
+                                    <div id="3DdescriptionAppletiser"></div>
+                                    <div id="3DlinkAppletiser"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Main Contents -->
+
+        <!-- Footer -->
+        <nav class="navbar navbar-expand-sm footer" id="footer">
+            <div class="container">
+                <div class="navbar-text float-left copyright">
+                    <p>
+                        <span class="align-baseline"></span>&copy 2019 Mobile Web 3D Applications</span>
+                        <a href="#" data-toggle="popover" data-trigger="hover" title="Contacts" data-placement="top" data-content="pleasedontsendusemails@introverts.com">Contacts</a>
+                    </p>
+                </div>
+                <div class="navbar-text float-right social">
+                    <a href="#"><i class="fab fa-facebook-square fa-2x" style="font-size:20px;color:blue;"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x" style="font-size:20px;color:teal;"></i></a>
+                    <a href="#"><i class="fab fa-google-plus fa-2x" style="font-size:20px;color:red;"></i></a>
+                    <a href="#"><i class="fab fa-github-square fa-2x" style="font-size:20px;color:grey;"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/52579dcdb6.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/noelboss/featherlight@1.7.8/release/featherlight.min.js"></script>
+    	<script type="text/javascript" src="https://create3000.github.io/code/x_ite/latest/dist/x_ite.min.js"></script>
+        <!--<script type='text/javascript' src='js/x3dom.js'></script>-->
+        <!--<script type="text/javascript" src="js/x_ite-4.6.11/x_ite.js"></script>-->
+        <script type='text/javascript' src='js/galleryGenerator.js'></script>
+        <script type='text/javascript' src='js/getJsonData.js'></script>
+        <script type='text/javascript' src='js/custom.js'></script>
+    </body>
+</html>

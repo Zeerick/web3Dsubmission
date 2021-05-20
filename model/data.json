@@ -1,0 +1,67 @@
+{
+    "pageTextData": [
+        {
+            "title": "Coca Cola Great Britain",
+            "subTitle": "Founded by Dr John S Pemberton",
+            "description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands.",
+            "image": "assets/images/home.png"
+        },
+        {
+            "title": "Coca Cola",
+            "subTitle": "Original Taste",
+            "description": "Coca‑Cola Original Taste is the world’s favourite soft drink and has been enjoyed since 1886. You can find Coca‑Cola Original Taste in a variety of sizes to suit every lifestyle and occasion.",
+            "link": "https://www.coca-cola.co.uk/brands/coca-cola-original-taste",
+            "image": "assets/images/coke.png"
+        },
+        {
+            "title": "Rose's",
+            "subTitle": "Lime Cordial",
+            "description": "Established in 1867, Rose's was the world's first concentrated fruit drink.",
+            "link": "https://www.coca-cola.co.uk/brands/rose-s",
+            "image": "assets/images/roses.png"
+        },
+        {
+            "title": "Appletiser",
+            "subTitle": "Sparkling fruit juice",
+            "description": "For over 50 years, Appletiser has been expertly crafting its unique blend of sparkling 100% natural apple juice. It has no added sugar, colourants, or preservatives and it is the perfect drink to accompany food or for other social occasions.",
+            "link": "https://www.coca-cola.co.uk/brands/appletiser",
+            "image": "assets/images/appletiser.png"
+        },
+        {
+            "x3dModelTitle": "Coca Cola 3D Model",
+            "x3dCreationMethod": "I could not get the Coca Cola model to work in x3d. The model itself can be downloaded on the Submission page.",
+            "title": "Coca Cola",
+            "subTitle": "Original Taste",
+            "description": "Confederate Colonel John Pemberton, wounded in the American Civil War and addicted to morphine, began a quest to find a substitute for the problematic drug. In 1885 at his drugstore in Columbus, Georgia, he registered Pemberton's French Wine Coca nerve tonic. Inspired by the success of Vin Mariani, a French-Corsican coca wine, Pemperton's recipe additionally included the African kola nut, the beverage's source of caffeine.",
+            "link": "https://www.coca-cola.co.uk/brands/coca-cola-original-taste",
+            "model": "assets/x3d/coke.gltf"
+        },
+        {
+            "x3dModelTitle": "Rose's 3D Model",
+            "x3dCreationMethod": "This model of a Rose's bottle was made in Blender 2.8 using a PBR material workflow, exported to Blender 2.7 via collada, exported as a .x3d, edited in Titiana and manually, and then displayed here using X_ite and X3D (no plugins used). It can be interacted with by right-clicking. Viewpoints will change the camera.",
+            "title": "Rose's Lime Cordial",
+            "subTitle": "The world's first concentrated fruit drink.",
+            "description": "Lauchlan Rose, a ship chandler in Leith, began a process for preserving lime juice in 1865 and patented this method to preserve citrus juice without alcohol in 1867. He had realised that preserving the juice with sugar rather than alcohol opened the product up to a far wider market.",
+            "link": "https://www.coca-cola.co.uk/brands/rose-s",
+            "model": "assets/x3d/roses.x3d"
+
+        },
+        {
+            "x3dModelTitle": "Appletiser 3D Model",
+            "x3dCreationMethod": "I could not get the Coca Cola model to work in x3d. The model itself can be downloaded on the Submission page.",
+            "title": "Appletiser",
+            "subTitle": "Sparkling fruit juice",
+            "description": "In 1966, Edmond Lombardi began creating his sparkling fruit juice, Appletiser, by blending fruit juice with carbonated water. The business was based in Elgin valley of the Western Cape, South Africa. Exports began in 1969 to two archipelagos: the Canary Islands (Spain) and Japan.",
+            "link": "https://www.coca-cola.co.uk/brands/appletiser",
+            "model": "assets/x3d/appletiser.gltf"
+        },
+        {
+            "galleryTitle": "3D Images",
+            "galleryDescription": "These images were rendered from 3D models in Blender using Cycles. They are highly detailed, and use materials founded in Physically Based Rendering. Additional effects such as volumetrics and simulations have been added in the background."
+        },
+        {
+            "interactionTitle": "3D Interactions",
+            "interactionDescription": "These buttons control the camera view, lighting, animations, and rendering of the 3D model."
+        }
+    ]
+}

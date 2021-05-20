@@ -1,0 +1,449 @@
+/* Method to declare your own fonts */
+@font-face {
+    font-family: cocaColaFont;
+    src: url(../assets/fonts/LOKICOLA.TTF);
+}
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap
+*/
+
+body {
+    background-color: #f1f8fe;
+}
+
+.main_contents {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.card {
+    border: 0;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Navbar *********************************************************************/
+.navbar_coca_cola {
+    background-color: #760003;
+    border-width: 0px;
+    min-height: 70px;
+    color: #ffffff;
+}
+
+.navbar_coca_cola:hover {
+    color: #ff0000;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ff0000;
+}
+
+/* Navigation Menu ********************************************************/
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav:hover .nav-link:hover {
+    color: #ff0000;
+}
+
+/* Active font and background colors */
+.navbar_coca_cola .navbar-nav .nav-item > .active,
+.navbar_coca_cola .navbar-nav > .active > a:hover,
+.navbar_coca_cola .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+/* These next two CSS rules control the style of the icon bar */
+.navbar_coca_cola .navbar-toggler {
+    border-color: white;
+}
+
+.navbar_coca_cola .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* End of navigation menu styling *****************************************/
+
+/* Dropdown menu **********************************************************/
+.dropdown-menu {
+    text-align: -webkit-left;
+    background-color: #760003;
+    margin-top: 20px;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+/* End of dropdown styling ************************************************/
+
+/* End of navbar styling ******************************************************/
+
+/* Logo ***********************************************************************/
+.logo {
+    margin-top: 3px;
+}
+
+.logo h1 {
+    font-family: cocaColaFont; /* You don't need to repeat this for each
+    media query as it is propagated */
+    font-size: 31px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+
+.logo h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+
+.logo p {
+    font-size: 7px; /* You may have to tweak this to get a good fit */
+    margin-top: 22px; /* You may have to tweak this to get a good fit */
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+/* End Of logo styling ********************************************************/
+
+/* Home Page styling **********************************************************/
+#main_image {
+    background-image: url(../assets/images/main_3D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
+    height: 200px;
+}
+
+#main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#main_text h2 {
+    color: rgba(0,102,153,1);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#main_text h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+}
+/* End of Home styling ********************************************************/
+
+/* Drinks Pages Styling *******************************************************/
+
+/* 3D Model Section *******************************************************/
+/* Nav tabs ***********************************************************/
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color:  #ffffff;
+    background-color: #ff0000;
+}
+
+.nav-tabs .nav-link {
+    color: #ffffff;
+    border: 0px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #ff0000;
+}
+/* End of Nav tabs ****************************************************/
+
+X3DCanvas {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+}
+/* End of 3D Model Section ************************************************/
+
+/* Gallery ****************************************************************/
+#gallery .carousel-item {
+    width: 25%;
+    height: 200px;
+}
+
+.img-thumbnail {
+    padding: 0;
+    margin-top: 0;
+}
+/* End of Gallery *********************************************************/
+
+/* Footer *********************************************************************/
+.footer {
+    color: #ffffff;
+    background-color: #760003; /* Set navbar footer background color same as header */
+    height: 50px;
+}
+
+.navbar-text > a {
+    font-size: 10px;
+}
+
+.navbar-text > p {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.copyright {
+    padding-top: 8px;
+}
+
+.social {
+    padding-top: 0px;
+}
+/* End of footer **************************************************************/
+
+/* X_ITE Stuff ****************************************************************/
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|Ubuntu+Mono:400);
+
+.browser {
+	display: block;
+	margin: 10px 0px;
+	width: 100%;
+	height: 563px;
+	box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.75);
+}
+
+.x_ite-browser-fallback {
+	background: rgba(0,0,0,0.61803);
+	background: -moz-linear-gradient(top, rgba(50,50,50,0.61803) 0%, rgba(0,0,0,0.61803) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(50,50,50,0.61803) 0%,rgba(0,0,0,0.61803) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(50,50,50,0.61803) 0%,rgba(0,0,0,0.61803) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.fallback {
+	display: block;
+	padding: 15vw 30px 0 30px;
+	text-align: center;
+}
+
+.meta-data {
+	display: none;
+}
+
+.meta-data table {
+	border-collapse: collapse;
+}
+
+.meta-data thead {
+	color: #e7e8a0;
+}
+
+.meta-data tr {
+	border-bottom: 1px dotted;
+}
+
+.meta-data tbody tr:last-child {
+	border-bottom: 0px;
+}
+
+.meta-data th,
+.meta-data td {
+	padding: 5px;
+}
+
+.featherlight .featherlight-content {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.x_ite-console {
+	display: none;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: fixed;
+	bottom: 0px;
+	border-top: 2px solid #888;
+	padding-top: 10px;
+	height: 20vh;
+	width: 100%;
+	background: rgba(0,0,0, 0.8);
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;
+	font-family: Ubuntu Mono;
+	font-size: 10pt;
+}
+/* End of X_ITE stuff *********************************************************/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #main_3d_image {
+        height: 270px;
+    }
+
+    #main_text h2 {
+        font-size: 32px;
+    }
+
+    #main_text h3 {
+        font-size: 20px;
+    }
+    #main_text p {
+        font-size: 16px;
+    }
+
+    .card {
+        font-size: 16px;
+    }
+
+    .camera-btns {
+        /* background-color: rgba(0, 0, 255, 0.3);  */
+        border-color: black;
+        border-style: solid;
+        border-width: 0px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .camera-btns > p  {
+        font-size: 15px;
+        color: red;
+        padding-left: 0px;
+        font-weight: 900;
+    }
+
+    .camera-font {
+        font-weight: 400;
+        color: white;
+    }
+
+    .camera-font:hover {
+        font-weight: 700;
+        color: rgb(3, 3, 3);
+    }
+
+    .btn-responsive {
+        padding: 4px 9px;
+        font-size: 60%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .gallery-header {
+        color: white;
+    }
+
+    .gallery-header:hover {
+        color: green;
+        border: 1px solid transparent;
+    }
+
+    .model3D  {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 1.0);
+        padding: 2px;
+        height: 600px;
+    }
+
+    X3D, x3d {
+        position: relative;
+        float: left;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 0, 0, 1.0);
+        width: 100%;
+        height: 100%;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .btn-responsive {
+        padding: 4px 9px;
+        font-size: 130%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .model3D  {
+        height: 1200px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .btn-responsive {
+        padding: 4px 9px;
+        font-size: 175%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .model3D  {
+        height: 600px;
+    }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
